@@ -12,6 +12,12 @@ import {Component, Input, Output, EventEmitter} from 'angular2/core';
 		.glyphicon-star {
 			color: orange;
 		}
+		i {
+			cursor: pointer;
+		}
+		.glyphicon-star-empty {
+			color: #ccc;
+		}
     `]
 //   	inputs: ['isFavorite'],
 //   	outputs: ['change']
